@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.section{
+    width: 100%;
+    height: auto;
+}
+.section{
+    width: 1300px;
+    height: auto;
+    margin: auto;
+    
+    display: flex;
+    flex-direction: row;
+}
+
+.perfil{
+    width: 450px;
+    height: 600px;
+}
+
+.img{
+    display: block;
+    height: 200px;
+    margin: auto;
+    margin-left: 85px;
+    margin-top: 80px;
+}
+.usuario{
+    font-size: 35px;
+    text-align: center;
+    margin-top: 30px;
+    font-family: fantasy;
+}
+
+.subn{
+    display: block;
+    font-size: 20px;
+    text-align: center;
+    font-family: monospace;
+    margin-top: 10px;
+}
+.info{
+    width: 100%;
+    height: 600px;
+}
+
+.cajaBotones{
+    width: 100%;
+    height: auto;
+}
+.nav_info{
+    list-style: none;
+    margin-top: 30px;
+    
+    display: flex;
+    flex-direction: row;
+}
+
+.nav_info li{
+    margin:auto;
+    font-size: 15px;
+    padding: 5px 20px;
+    cursor: pointer;
+}
+
+.nav_info li:hover{
+    border-bottom: 1px solid black;
+    transition: 0.2s;
+ }
+
+.cont_Destacado{
+    display: none;
+    width: 100%;
+    height: 500px;
+    margin-top: 20px;
+    background-color: coral;
+}
+
+.cont_Proyectos{
+    display: none;
+    width: 100%;
+    height: 500px;
+    margin-top: 20px;
+    background-color: lightgreen;
+}
+
+.cont_Biografia{
+    display: none;
+    width: 100%;
+    height: 500px;
+    margin-top: 20px;
+    background-color: firebrick;
+}
+
+.activarCaja{
+    display: block;
+    height: 500px;
+}
+
